@@ -9,7 +9,11 @@ $.getJSON('../data/rse-geo.json', function(response){
        L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);
 });
 
-$.getJSON('../data/center-point.json', function(response){
+//$.getJSON('../data/center-point.json', function(response){
+//       geojson= response;
+//       L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);
+//});
+$.getJSON('../data/rse-data-locations.json', function(response){
        geojson= response;
        L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);
 });
