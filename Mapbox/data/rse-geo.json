@@ -1,0 +1,14 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [-77.03238901390978,38.913188059745586],
+      [-122.414, 37.776]
+    ]
+  },
+  "properties": {
+    "stroke": "#fc4353",
+    "stroke-width": 5
+  }
+}
